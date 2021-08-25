@@ -112,7 +112,7 @@ function prompt_git {
 setopt prompt_subst
 
 prompt_pwd() {
-    if [[ $FIRST_CD == true ]]; then
+    if [[ $FIRST_CD == '' || $FIRST_CD == true ]]; then
         echo "%F{blue}`pwd`%f"
     else
         echo "%F{blue}%(5~,%-2~/.../%2~,%~)%f"
