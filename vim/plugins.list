@@ -24,3 +24,5 @@ psf/black
 cocopon/iceberg.vim
 tyru/skk.vim
 tpope/vim-repeat
+jiangmiao/auto-pairs
+mattn/emmet-vim
